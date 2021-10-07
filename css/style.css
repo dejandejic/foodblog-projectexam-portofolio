@@ -127,7 +127,59 @@ header .navbar a,
     outline: none;
     padding: 2px 12px;
   }
+  .search-box {
+    position: relative;
+ }
 
+ .suggest_box ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+ }
+
+ .suggest_box ul li+li {
+    margin-top: 5px;
+ }
+
+ .suggest_box .cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .suggest_box .img_wrap img {
+    max-width: 100%;
+ }
+
+ .suggest_box .img_wrap {
+    max-width: 70px;
+    margin-right: 10px;
+ }
+
+ .suggest_box .detail_wrap {
+    max-width: 100px;
+ }
+
+ .suggest_box h4.title {
+    font-size: 0.9em;
+    line-height: 1.2;
+ }
+
+ .suggest_box span.text_wrap {
+    font-size: 12px;
+    line-height: 1.4;
+    display: block;
+    color: #000;
+    font-weight: 500;
+ }
+
+ .suggest_box {
+    position: absolute;
+    background-color: #fff;
+    padding: 1em;
+    left: 0px;
+ }
+ .content{display:none}
 /* --------------------------------------------------------------*/
 
 /* Slideshow container */
