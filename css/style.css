@@ -130,7 +130,7 @@ header .navbar a,
   .search-box {
     position: relative;
  }
-
+/*
  .suggest_box ul {
     list-style: none;
     padding: 0px;
@@ -180,6 +180,7 @@ header .navbar a,
     left: 0px;
  }
  .content{display:none}
+ */
 /* --------------------------------------------------------------*/
 
 /* Slideshow container */
